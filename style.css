@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #337070;
+    letter-spacing: 1.42px;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #6d1606;
+    letter-spacing: 0.54px;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #5f9595;
+}
+
+h4 {
+    font-size: 16px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #e74c30;
+    text-align: right;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 14px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #9699aa;
+}
+
+p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+}
+
+a {
+    font-size: 14px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #586103;
+}
+
+.container {
+    padding: 80px;
+}
+
+.container2 {
+    padding: 80px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.container3 {
+    padding: 80px;
+    padding-top: 30px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.btn {
+    background-color: #FFFFFF;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 700;
+    color: #5f9595;
+    box-shadow: 2px 2px 2px 2px #888888;
+    position: absolute;
+    top: 760px;
+}
+
+.img-thumbnail {
+    width: 320px;
+    height: 210px;
+}
+
+.sub-name {
+    font-size: 18px;
+    letter-spacing: 0.57px;
+    line-height: 23px;
+    color: #337070;
+}
+
+.review {
+    background-color: #FFF1EF;
+    padding: 160px;
+}
+
+.information {
+    padding-top: 10px;
+}
+
+
