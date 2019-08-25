@@ -49,6 +49,20 @@ a {
     color: #586103;
 }
 
+a:hover {
+    text-decoration: none;
+    color: #337070;
+}
+
+.read-more {
+    font-size: 16px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #e74c30;
+    text-align: right;
+    font-weight: 600;
+    text-decoration: none;
+}
+
 .container {
     padding: 80px;
 }
@@ -65,7 +79,7 @@ a {
 }
 
 img {
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 
@@ -74,14 +88,16 @@ img {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: 700;
     color: #5f9595;
-    box-shadow: 2px 2px 2px 2px #888888;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: absolute;
     top: 760px;
 }
 
-.img-thumbnail {
+.rounded {
     width: 320px;
     height: 210px;
+    object-fit: cover;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .sub-name {
@@ -89,11 +105,17 @@ img {
     letter-spacing: 0.57px;
     line-height: 23px;
     color: #337070;
+    margin-top: 10px;
 }
 
 .review {
     background-color: #FFF1EF;
-    padding: 160px;
+    padding: 30px;
+}
+
+.review-text {
+    margin: auto;
+    width: 75%;
 }
 
 .information {
